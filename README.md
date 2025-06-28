@@ -1,4 +1,4 @@
-Full Stack Development with MERN
+Full Stack Development with MERN(LearnHub)
 Project Documentation: Online Learning Platform
 1. Introduction
 Project Title: Online Learning Platform (OLP) using MERN Stack(LearnHub
