@@ -1,0 +1,50 @@
+.certificate {
+  position: relative;
+  padding: 40px;
+  border: 3px solid #4a4a4a;
+  text-align: center;
+  background-image: url('/certificate-bg.jpg'); /* ✅ Important: Public folder path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #333;
+  min-height: 600px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.certificate-content {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.85); /* Transparent white layer for text readability */
+  display: inline-block;
+  padding: 20px 30px;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+.certificate h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.certificate h2 {
+  font-size: 28px;
+  margin: 10px 0;
+  color: #2c3e50;
+}
+
+.certificate h3 {
+  font-size: 24px;
+  margin: 8px 0;
+  color: #34495e;
+}
+
+.certificate p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.certificate .date {
+  margin-top: 10px;
+  font-weight: bold;
+}

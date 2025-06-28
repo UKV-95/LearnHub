@@ -1,0 +1,51 @@
+.course-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.course-section {
+  width: 48%;
+  max-height: 600px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.course-video {
+  width: 48%;
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.certificate {
+  position: relative;
+  padding: 40px;
+  border: 3px solid #4a4a4a;
+  text-align: center;
+  background-image: url('/src/assets/images/certificate_background.jpg'); /* ✅ Update path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #333;
+  min-height: 600px;
+}
+
+.certificate-content {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.85);
+  display: inline-block;
+  padding: 20px 30px;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+.certificate h1,
+.certificate h2,
+.certificate h3,
+.certificate p {
+  margin: 8px 0;
+}

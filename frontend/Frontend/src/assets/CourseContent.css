@@ -1,0 +1,43 @@
+.course-content-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.course-section {
+  flex: 1;
+  overflow-y: auto;
+  max-height: 600px;
+}
+
+.course-video {
+  flex: 1;
+  height: 400px;
+}
+
+.certificate {
+  position: relative;
+  padding: 40px;
+  border: 3px solid #4a4a4a;
+  text-align: center;
+  background-image: url('/certificate-bg.jpg'); /* ✅ Put this image inside public folder */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 600px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.certificate-content {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 20px 30px;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.certificate h1,
+.certificate h2,
+.certificate h3,
+.certificate p {
+  margin: 10px 0;
+}
