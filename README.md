@@ -107,5 +107,6 @@ Demo Video: Link to project-implementation.mp4
 - Add live chat and notifications
 - Unit testing and test automation
 - https://drive.google.com/file/d/1ojb_9xPXw-mE5RI-NqCMIXJQxuPt5Jx0/view?usp=drive_link
-- This link contains All info with implementation video
+- This link contains All info with implementation video and implementation video link with adio given below
+- https://drive.google.com/file/d/1VtPgC1b_VZepVstJTcp96LWlxG7PmELu/view?usp=sharing
   
